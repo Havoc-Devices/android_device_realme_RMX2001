@@ -143,3 +143,6 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Treble
 BOARD_VNDK_VERSION := current
+
+#HavocOS Props 
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

@@ -150,10 +150,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CustomDoze
 
-# Google-Camera GO
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 #Realme Parts & Realme Dirac
 PRODUCT_PACKAGES += \
     RealmeParts \

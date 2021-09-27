@@ -24,18 +24,13 @@ $(call inherit-product, device/realme/RMX2001/device.mk)
 # Inherit some common Havoc OS stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-HAVOC_BUILD_TYPE=Official
-WITH_GAPPS=false
-TARGET_GAPPS_ARCH=arm64
-HAVOC_MAINTAINER := bx2nero
-HAVOC_GROUP_URL := https://t.me/havoc_RMX2001
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_RMX2001
 PRODUCT_DEVICE := RMX2001
-PRODUCT_BRAND := realme
+PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme G90T Series
-PRODUCT_MANUFACTURER := realme
+PRODUCT_MANUFACTURER := Realme
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
